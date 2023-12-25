@@ -7,7 +7,7 @@ public record Latitude
     public Latitude(double value)
     {
         if (value > 90 || value < -90)
-            throw new ArgumentException("Longitude must be between 180 and -180");
+            throw new ArgumentException("Latitude must be between 90 and -90");
         Value = value;
     }
 }
