@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roomex.GeoCoordinate.Api", "Roomex.GeoCoordinate.Api\Roomex.GeoCoordinate.Api.csproj", "{FBCC675D-A23C-49D5-9776-0C9CEA2A0777}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CB187D4F-CE61-451E-8863-5E975292529C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{43C309C6-5D2B-4568-924E-CD361960CC20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1Roomex.GeoCoordinate.Api.Tests", "TestProject1Roomex.GeoCoordinate.Api.Tests\TestProject1Roomex.GeoCoordinate.Api.Tests.csproj", "{590DEC44-F705-4049-9601-CF11B6FDBFF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBCC675D-A23C-49D5-9776-0C9CEA2A0777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBCC675D-A23C-49D5-9776-0C9CEA2A0777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBCC675D-A23C-49D5-9776-0C9CEA2A0777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBCC675D-A23C-49D5-9776-0C9CEA2A0777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{590DEC44-F705-4049-9601-CF11B6FDBFF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{590DEC44-F705-4049-9601-CF11B6FDBFF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{590DEC44-F705-4049-9601-CF11B6FDBFF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{590DEC44-F705-4049-9601-CF11B6FDBFF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FBCC675D-A23C-49D5-9776-0C9CEA2A0777} = {CB187D4F-CE61-451E-8863-5E975292529C}
+		{590DEC44-F705-4049-9601-CF11B6FDBFF0} = {43C309C6-5D2B-4568-924E-CD361960CC20}
+	EndGlobalSection
+EndGlobal
