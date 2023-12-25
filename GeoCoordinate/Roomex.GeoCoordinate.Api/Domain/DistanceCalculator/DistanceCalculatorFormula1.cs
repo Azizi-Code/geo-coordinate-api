@@ -10,8 +10,8 @@ public class DistanceCalculatorFormula1 : IDistanceCalculator
         double latitude2 = secondCoordinate.Latitude.Value.ToRadians();
         double delta = (firstCoordinate.Longitude.Value - secondCoordinate.Longitude.Value).ToRadians();
 
-        double cosP = Math.Cos(latitude1) * Math.Cos(latitude2) +
-                      Math.Sin(latitude1) * Math.Sin(latitude2) * Math.Cos(delta);
+        double cosP = Math.Sin(latitude1) * Math.Sin(latitude2) +
+                      Math.Cos(latitude1) * Math.Cos(latitude2) * Math.Cos(delta);
 
         var distance = IDistanceCalculator.EarthRadiusKm * Math.Acos(cosP);
         return distance;
