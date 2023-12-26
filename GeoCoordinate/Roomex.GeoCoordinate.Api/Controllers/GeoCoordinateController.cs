@@ -16,7 +16,7 @@ public class GeoCoordinateController(
         //this try/catch block can be refactor with a middleware for handling exceptions and logging in a  proper way. 
         try
         {
-            var result = geoCoordinatorService.GetDistance(request.LocationA, request.LocationB, culture);
+            var result = geoCoordinatorService.GetDistance(request.CoordinateA, request.CoordinateB, culture);
             return Ok(result);
         }
         catch (Exception e)

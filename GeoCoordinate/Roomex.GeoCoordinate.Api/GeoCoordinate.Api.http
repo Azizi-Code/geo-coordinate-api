@@ -1,10 +1,10 @@
 @GeoCoordinate.Api_HostAddress = http://localhost:5095
 
 GET {{GeoCoordinate.Api_HostAddress}}/api/v1/geocoordinate/distance?
-    LocationA.Latitude=10
-    &LocationA.Longitude=100
-    &LocationB.Latitude=14
-    &LocationB.Longitude=-10
+    CoordinateA.Latitude=40
+    &CoordinateA.Longitude=-75
+    &CoordinateB.Latitude=34
+    &CoordinateB.Longitude=-118
 
 Accept: application/json
 

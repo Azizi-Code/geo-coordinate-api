@@ -8,6 +8,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{43C309C6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roomex.GeoCoordinate.Api.Tests", "Roomex.GeoCoordinate.Api.Tests\Roomex.GeoCoordinate.Api.Tests.csproj", "{42C85C9F-9672-4615-B17C-28612AE0452C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roomex.GeoCoordinate.Api.IntegrationTests", "Roomex.GeoCoordinate.Api.IntegrationTests\Roomex.GeoCoordinate.Api.IntegrationTests.csproj", "{13AB6513-9890-43DD-83CB-0EF4E3CBB29B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,9 +24,14 @@ Global
 		{42C85C9F-9672-4615-B17C-28612AE0452C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42C85C9F-9672-4615-B17C-28612AE0452C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42C85C9F-9672-4615-B17C-28612AE0452C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13AB6513-9890-43DD-83CB-0EF4E3CBB29B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13AB6513-9890-43DD-83CB-0EF4E3CBB29B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13AB6513-9890-43DD-83CB-0EF4E3CBB29B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13AB6513-9890-43DD-83CB-0EF4E3CBB29B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FBCC675D-A23C-49D5-9776-0C9CEA2A0777} = {CB187D4F-CE61-451E-8863-5E975292529C}
 		{42C85C9F-9672-4615-B17C-28612AE0452C} = {43C309C6-5D2B-4568-924E-CD361960CC20}
+		{13AB6513-9890-43DD-83CB-0EF4E3CBB29B} = {43C309C6-5D2B-4568-924E-CD361960CC20}
 	EndGlobalSection
 EndGlobal

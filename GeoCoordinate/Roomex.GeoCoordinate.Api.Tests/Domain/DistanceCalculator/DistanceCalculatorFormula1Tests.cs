@@ -10,8 +10,8 @@ public class DistanceCalculatorFormula1Tests_Calculate
     [Fact]
     public void ValidCoordinates_ReturnsDistance()
     {
-        var firstCoordinate = new GeoCoordinateModel(new Latitude(40), new Longitude(-75.0));
-        var secondCoordinate = new GeoCoordinateModel(new Latitude(34), new Longitude(-118.0));
+        var firstCoordinate = new GeoCoordinateModel(new Latitude(40), new Longitude(-75));
+        var secondCoordinate = new GeoCoordinateModel(new Latitude(34), new Longitude(-118));
         var distanceCalculator = DistanceCalculatorFactory.GetInstance(CalculatorType.Formula1);
 
         double result = distanceCalculator.Calculate(firstCoordinate, secondCoordinate);
@@ -22,11 +22,11 @@ public class DistanceCalculatorFormula1Tests_Calculate
     [Fact]
     public void SameCoordinates_ReturnsZero()
     {
-        var coordinate = new GeoCoordinateModel(new Latitude(40), new Longitude(-75.0));
+        var coordinate = new GeoCoordinateModel(new Latitude(40), new Longitude(-75));
         var distanceCalculator = DistanceCalculatorFactory.GetInstance(CalculatorType.Formula1);
 
         double result = distanceCalculator.Calculate(coordinate, coordinate);
 
-        Assert.Equal(0.0, result);
+        Assert.Equal(0, result);
     }
 }
