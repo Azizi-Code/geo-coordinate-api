@@ -22,10 +22,10 @@ jobs:
         dotnet-version: ${{ env.DOTNET_VERSION }}
     
     - name: Restore
-      run: dotnet restore ./Roomex.GeoCoordinate.sln
+      run: dotnet restore GeoCoordinate/Roomex.GeoCoordinate.sln
       
     - name: Build
-      run: dotnet build ./Roomex.GeoCoordinate.sln --configuration Release --no-restore
+      run: dotnet build GeoCoordinate/Roomex.GeoCoordinate.sln --configuration Release --no-restore
       
     - name: Test
-      run: dotnet test ./Roomex.GeoCoordinate.sln --configuration Release --no-build --no-restore
+      run: dotnet test GeoCoordinate/Roomex.GeoCoordinate.sln --configuration Release --no-build --no-restore
